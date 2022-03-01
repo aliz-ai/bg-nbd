@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+plotly = "*"
+numpy = "*"
+seaborn = "*"
+lifetimes = "*"
+theano-pymc = "==1.1.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
